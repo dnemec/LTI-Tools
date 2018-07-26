@@ -1,7 +1,7 @@
 # About
-This is a MATLAB script for basic analysis of an LTI system up to the 5th order.
-Script is very readable so you may easily expand it and adjust to your liking.
-It has a command line input of coefficients and GUI for choosing the plot type.
+This is a MATLAB script for basic analysis of an LTI system up to the 5th order. 
+Script is very readable so you may easily expand it and adjust to your liking. 
+It has a command line input of coefficients and GUI for choosing the plot type. 
 
 ## Features
 * [Stability of a system](https://www.mathworks.com/help/control/ref/isstable.html)
