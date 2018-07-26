@@ -22,12 +22,12 @@ B1 = input('Input the coefficient that multiplies S in NUMERATOR        = ');
 B0 = input('Input the coefficient that does not multiply S in NUMERATOR = ');
 
 fprintf('\n------------------------------ DENOMINATOR ---------------------------------\n')
-N5 = input('Input the coefficient that multiplies S^5 in DENOMINATOR    = ');
-N4 = input('Input the coefficient that multiplies S^4 in DENOMINATOR    = ');
-N3 = input('Input the coefficient that multiplies S^3 in DENOMINATOR    = ');
-N2 = input('Input the coefficient that multiplies S^2 in DENOMINATOR    = ');
-N1 = input('Input the coefficient that multiplies S in DENOMINATOR      = ');
-N0 = input('Input the coefficient that does not multiply S in NUMERATOR = ');
+N5 = input('Input the coefficient that multiplies S^5 in DENOMINATOR      = ');
+N4 = input('Input the coefficient that multiplies S^4 in DENOMINATOR      = ');
+N3 = input('Input the coefficient that multiplies S^3 in DENOMINATOR      = ');
+N2 = input('Input the coefficient that multiplies S^2 in DENOMINATOR      = ');
+N1 = input('Input the coefficient that multiplies S in DENOMINATOR        = ');
+N0 = input('Input the coefficient that does not multiply S in DENOMINATOR = ');
 
 N = [N5, N4, N3, N2, N1, N0];
 B = [B5, B4, B3, B2, B1, B0];
