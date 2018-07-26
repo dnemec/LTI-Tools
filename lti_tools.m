@@ -137,24 +137,32 @@ switch choice
         saveas(pfp, 'pfp.png')
         
     case 6
-        pzmap(Gs)
-        pzmap = pzmap(Gs);
-        saveas(pzmap, 'pzmap.png')
+        disp(Gs);
+        figure(6);
+        pzmap(Gs);
+        pz = figure(6);
+        saveas(pz, 'pzmap.png')
         
     case 7
-        margin(Gs)
-        margin = margin(Gs);
-        saveas(margin, 'margin.png')
+        disp(Gs);
+        figure(7);
+        margin(Gs);
+        marg = figure(7);
+        saveas(marg, 'margin.png')
         
     case 8
-        nyquist(Gs)
-        nyquist = nyquist(Gs);
-        saveas(nyquist, 'nyquist.png')
+        disp(Gs);
+        figure(8);
+        nyquist(Gs);
+        nyq = figure(8);
+        saveas(nyq, 'nyquist.png')
         
     case 9
+        disp(Gs);
+        figure(9);
         rlocus(Gs)
-        rlocus = rlocus(Gs);
-        saveas(rlocus, 'rlocus.png')
+        rlp = figure(9);
+        saveas(rlp, 'rlocus.png')
        
     case 10
         disp(Gs);
@@ -216,21 +224,29 @@ switch choice
         pfp = figure(5);
         saveas(pfp, 'pfp.png')
         
-        pzmap(Gs)
-        pzmap = pzmap(Gs);
-        saveas(pzmap, 'pzmap.png')
+        disp(Gs);
+        figure(6);
+        pzmap(Gs);
+        pz = figure(6);
+        saveas(pz, 'pzmap.png')
         
-        margin(Gs)
-        margin = margin(Gs);
-        saveas(margin, 'margin.png')
+        disp(Gs);
+        figure(7);
+        margin(Gs);
+        marg = figure(7);
+        saveas(marg, 'margin.png')
         
-        nyquist(Gs)
-        nyquist = nyquist(Gs);
-        saveas(nyquist, 'nyquist.png')
+        disp(Gs);
+        figure(8);
+        nyquist(Gs);
+        nyq = figure(8);
+        saveas(nyq, 'nyquist.png')
         
+        disp(Gs);
+        figure(9);
         rlocus(Gs)
-        rlocus = rlocus(Gs);
-        saveas(rlocus, 'rlocus.png')
+        rlp = figure(9);
+        saveas(rlp, 'rlocus.png')
 end
 end
 
