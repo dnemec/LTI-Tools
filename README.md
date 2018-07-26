@@ -17,7 +17,7 @@ It has a command line input of coefficients and GUI for choosing the plot type.
 * [Root locus](https://www.mathworks.com/help/control/ref/rlocus.html)
 
 ## Dependencies
-This script requires the [Control Systems Toolbox](https://www.mathworks.com/help/control/index.html)  
+This script requires the [Control Systems Toolbox](https://www.mathworks.com/help/control/index.html).  
 Unfortunately it doesn't work properly in GNU Octave because of missing equivalent functions in control package.
 
 ## Language
