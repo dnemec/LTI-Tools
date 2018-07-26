@@ -18,3 +18,10 @@ Script is very readable so you may easily expand it and adjust to your liking.
 ## Dependencies
 This script requires the [Control Systems Toolbox](https://www.mathworks.com/help/control/index.html)
 Unfortunately it doesn't work properly in GNU Octave because of missing equivalent functions in control package.
+
+## Language
+lti_tools.m is english version of the script.
+lti_tools_HR.m is croatian version of the script.
+
+* [English version](https://github.com/dnemec/LTI-Tools/blob/master/lti_tools.m)
+* [Croatian version](https://github.com/dnemec/LTI-Tools/blob/master/lti_tools_HR.m)
