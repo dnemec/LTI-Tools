@@ -74,22 +74,26 @@ switch choice
     
     case 1
         disp(Gs);
-        figure;
+        figure(1);
         impulse(Gs);
         title('Impulse response')
         ylabel('h(t)')
         xlabel('t(s)')
+        imp = figure(1);
+        saveas(imp, 'impulse.png')
         
     case 2
         disp(Gs);
-        figure;
+        figure(2);
         step(Gs);
         title('Step response')
         xlabel('t(s)')
+        step = figure(2);
+        saveas(step, 'step.png')
         
     case 3
         disp(Gs);
-        figure;
+        figure(3);
         opts = bodeoptions();
         opts.PhaseVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -99,9 +103,12 @@ switch choice
         title('Amplitude-frequency plot')
         ylabel('|T(jw)|')
         xlabel('w')
+        afpabs = figure(3);
+        saveas(afpabs, 'afpabs.png')
+        
     case 4
         disp(Gs);
-        figure;
+        figure(4);
         opts = bodeoptions();
         opts.PhaseVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -111,10 +118,12 @@ switch choice
         title('Amplitude-frequency plot in dB')
         ylabel('|T(jw)|')
         xlabel('w')
+        afpdb = figure(4);
+        saveas(afpdb, 'afpdb.png')
         
     case 5
         disp(Gs);
-        figure;
+        figure(5);
         opts = bodeoptions();
         opts.MagVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -124,35 +133,49 @@ switch choice
         title('Phase-frequency plot')
         ylabel('Phase shift')
         xlabel('w')
+        pfp = figure(5);
+        saveas(pfp, 'pfp.png')
         
     case 6
         pzmap(Gs)
+        pzmap = pzmap(Gs);
+        saveas(pzmap, 'pzmap.png')
         
     case 7
         margin(Gs)
+        margin = margin(Gs);
+        saveas(margin, 'margin.png')
         
     case 8
         nyquist(Gs)
+        nyquist = nyquist(Gs);
+        saveas(nyquist, 'nyquist.png')
         
     case 9
         rlocus(Gs)
+        rlocus = rlocus(Gs);
+        saveas(rlocus, 'rlocus.png')
        
     case 10
         disp(Gs);
-        figure;
+        figure(1);
         impulse(Gs);
         title('Impulse response')
         ylabel('h(t)')
         xlabel('t(s)')
+        imp = figure(1);
+        saveas(imp, 'impulse.png')
         
         disp(Gs);
-        figure;
+        figure(2);
         step(Gs);
         title('Step response')
         xlabel('t(s)')
+        step = figure(2);
+        saveas(step, 'step.png')
         
         disp(Gs);
-        figure;
+        figure(3);
         opts = bodeoptions();
         opts.PhaseVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -162,9 +185,11 @@ switch choice
         title('Amplitude-frequency plot')
         ylabel('|T(jw)|')
         xlabel('w')
+        afpabs = figure(3);
+        saveas(afpabs, 'afpabs.png')
         
         disp(Gs);
-        figure;
+        figure(4);
         opts = bodeoptions();
         opts.PhaseVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -174,9 +199,11 @@ switch choice
         title('Amplitude-frequency plot in dB')
         ylabel('|T(jw)|')
         xlabel('w')
+        afpdb = figure(4);
+        saveas(afpdb, 'afpdb.png')
         
         disp(Gs);
-        figure;
+        figure(5);
         opts = bodeoptions();
         opts.MagVisible= 'off';
         opts.XLimMode= {'manual'};
@@ -186,14 +213,24 @@ switch choice
         title('Phase-frequency plot')
         ylabel('Phase shift')
         xlabel('w')
+        pfp = figure(5);
+        saveas(pfp, 'pfp.png')
         
         pzmap(Gs)
+        pzmap = pzmap(Gs);
+        saveas(pzmap, 'pzmap.png')
         
         margin(Gs)
+        margin = margin(Gs);
+        saveas(margin, 'margin.png')
         
         nyquist(Gs)
+        nyquist = nyquist(Gs);
+        saveas(nyquist, 'nyquist.png')
         
         rlocus(Gs)
+        rlocus = rlocus(Gs);
+        saveas(rlocus, 'rlocus.png')
 end
 end
 
