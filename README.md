@@ -28,6 +28,7 @@ Macintosh/Users/username/Documents/MATLAB
 
 ## Dependencies
 This script requires the [Control Systems Toolbox](https://www.mathworks.com/help/control/index.html).  
+I have tested it and it is fully working on MATLAB R2017A on MacOS with Control Systems Toolbox installed, i cannot guarantee full functionality for older versions.  
 Unfortunately it doesn't work properly in GNU Octave because of missing equivalent functions in control package.
 
 ## Language
