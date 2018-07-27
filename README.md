@@ -3,7 +3,8 @@ This is a MATLAB script for basic analysis of an LTI system up to the 5th order.
 Script is very readable so you may easily expand it and adjust to your liking.  
 It features a command line input of coefficients and GUI for choosing the plot type.  
 After selection of plot type it automatically saves the high resolution .png plot image file in your MATLAB working directory.  
-It is usually located in:  
+  
+In Windows operating system is usually located in:  
 ```
 C:/User/MyDocuments/MATLAB
 ```
