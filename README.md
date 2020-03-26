@@ -1,12 +1,12 @@
 # About
 This is a MATLAB script for basic analysis of an LTI system up to the 5th order.  
 Script is very readable so you may easily expand it and adjust to your liking.  
-It features a command line input of coefficients and GUI for choosing the plot type.  
+It features a command line input of symbolic transfer function or transfer function coefficients and GUI for choosing the plot type.  
 After selection of plot type it automatically saves the high resolution .png plot image file in your MATLAB working directory.  
   
 In Windows operating system is usually located in:  
 ```
-C:/User/MyDocuments/MATLAB
+C:/Users/username/My Documents/MATLAB
 ```
 or in case of MacOS in:  
 ```
@@ -18,6 +18,7 @@ Macintosh/Users/username/Documents/MATLAB
 * [Natural frequency and damping ratio](https://www.mathworks.com/help/control/ref/damp.html)
 * [Impulse response](https://www.mathworks.com/help/control/ref/impulse.html)
 * [Step response](https://www.mathworks.com/help/control/ref/step.html)
+* [Bode plot with asymptotes](https://www.mathworks.com/matlabcentral/fileexchange/10183-bode-plot-with-asymptotes)
 * [Amplitude-phase plot in abs unit](https://www.mathworks.com/help/control/ref/bode.html)
 * [Amplitude-phase plot in dB unit](https://www.mathworks.com/help/control/ref/bode.html)
 * [Phase-frequency plot](https://www.mathworks.com/help/control/ref/bode.html)
@@ -30,10 +31,3 @@ Macintosh/Users/username/Documents/MATLAB
 This script requires the [Control Systems Toolbox](https://www.mathworks.com/help/control/index.html).  
 I have tested it and it is fully working on MATLAB R2017A on MacOS with Control Systems Toolbox installed, i cannot guarantee full functionality for older versions.  
 Unfortunately it doesn't work properly in GNU Octave because of missing equivalent functions in control package.
-
-## Language
-lti_tools.m is english version of the script.  
-lti_tools_HR.m is croatian version of the script.  
-
-* [English version](https://github.com/dnemec/LTI-Tools/blob/master/lti_tools.m)
-* [Croatian version](https://github.com/dnemec/LTI-Tools/blob/master/lti_tools_HR.m)
